@@ -1,0 +1,29 @@
+{
+  "name": "vite2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "vite2022": "./bin/vite2022.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "check-is-array": "^2.0.6",
+    "chokidar": "^3.5.3",
+    "connect": "^3.7.0",
+    "es-module-lexer": "^1.1.0",
+    "esbuild": "^0.15.14",
+    "fast-glob": "^3.2.12",
+    "fs-extra": "^10.1.0",
+    "hash-sum": "^2.0.0",
+    "magic-string": "^0.26.7",
+    "resolve": "^1.22.1",
+    "serve-static": "^1.15.0",
+    "ws": "^8.11.0"
+  }
+}
