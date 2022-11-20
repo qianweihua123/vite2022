@@ -2,7 +2,7 @@
  * @Author: qwh 15806293089@163.com
  * @Date: 2022-11-16 16:39:24
  * @LastEditors: qwh 15806293089@163.com
- * @LastEditTime: 2022-11-16 17:02:39
+ * @LastEditTime: 2022-11-20 19:02:26
  * @FilePath: /vite2022/step.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -28,3 +28,6 @@
   },
   "chunks": {}
   }
+
+  1.查找当前项目依赖的第三方模块
+  2，把它们的 es module 版本进行打包，存放在 node_modules/.vite/deps 下
