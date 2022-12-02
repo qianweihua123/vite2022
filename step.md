@@ -118,3 +118,12 @@ code :
 var style = document . createElement ('style");
 style.innerHTML = ${JSON.stringify(stylecode);
 document .head.appendchild(style);
+
+先说一下热更新思路
+--.会在服务器端构建一个 moduleGraph，或者说模块依赖图，里面会记录
+每个模块的信息。
+idToModuleMap key 模块的绝对路径 值是模块节点的对象 ModuleNode
+importers 此模块被哪些模块导入了，或者说依赖了
+acceptedHmrDeps 当哪些子模块发生变更 的时候，自己的可以处理对应的更新了
+a〔b,c,d]
+a acceptedHmrDeps b 只能接受或者说处理 b 的更新
